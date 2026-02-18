@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Étudiants & Parents | MP Vision Conseil</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="etudiants-parents.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="MP Vision Conseil">
+            </a>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="ep-page">
+        <!-- Hero choix -->
+        <section class="ep-hero">
+            <div class="ep-hero-bg"></div>
+            <div class="ep-hero-content">
+                <p class="ep-hero-badge">Services spécialisés</p>
+                <h1>Tout le monde peut recevoir de l'aide</h1>
+                <p class="ep-subtitle">Découvrez les services adaptés à votre situation pour une réussite garantie</p>
+                <div class="ep-question-block">
+                    <p class="ep-question">Vous êtes ?</p>
+                    <p class="ep-question-hint">Choisissez pour découvrir nos offres dédiées</p>
+                </div>
+                <div class="ep-choices">
+                    <button class="ep-choice ep-choice-etudiant" data-target="etudiant">
+                        <span class="ep-choice-icon">🎓</span>
+                        <span class="ep-choice-label">Étudiant</span>
+                        <span class="ep-choice-desc">Réussite académique & intégration</span>
+                    </button>
+                    <button class="ep-choice ep-choice-parent" data-target="parent">
+                        <span class="ep-choice-icon">👨‍👩‍👧</span>
+                        <span class="ep-choice-label">Parent</span>
+                        <span class="ep-choice-desc">Accompagnement de votre enfant</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenu Étudiant -->
+        <section id="etudiant" class="ep-content ep-content-etudiant" hidden>
+            <div class="ep-content-header">
+                <div class="container">
+                    <button class="ep-back" data-back>
+                        <span class="ep-back-icon">←</span>
+                        Retour au choix
+                    </button>
+                    <span class="ep-content-type">Services Étudiants</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="ep-layout">
+                    <div class="ep-main">
+                        <h2>Services pour étudiants étrangers</h2>
+                        <p class="ep-intro">Un accompagnement complet pour votre réussite académique et votre intégration.</p>
+                        
+                        <div class="ep-service-block">
+                            <h3>1. Coaching académique et méthodologique</h3>
+                            <ul>
+                                <li>Méthodologie universitaire (prise de notes, mémorisation, rédaction, citations)</li>
+                                <li>Coaching pour améliorer les performances académiques</li>
+                                <li>Préparation aux séminaires, exposés, soutenances Licence & Master</li>
+                                <li>Suivi mensuel personnalisé pour étudiants</li>
+                                <li>Gestion du stress et anxiété académique</li>
+                                <li>Confiance en soi et affirmation personnelle</li>
+                                <li>Résilience émotionnelle</li>
+                                <li>Gestion de temps et méthodes de travail efficaces</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>2. Formations en langues (Français, Anglais, Wolof)</h3>
+                            <ul>
+                                <li>Français académique pour étudiants étrangers</li>
+                                <li>Français professionnel (Médecine, droit, économie, communication, etc.)</li>
+                                <li>Anglais des affaires pour étudiants francophones</li>
+                                <li>Introduction au Wolof pour faciliter l'intégration</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>3. Coaching développement personnel</h3>
+                            <ul>
+                                <li>Gestion du stress et anxiété universitaire</li>
+                                <li>Organisation, discipline et gestion du temps</li>
+                                <li>Confiance en soi et leadership pour étudiant</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>4. Orientation professionnelle</h3>
+                            <ul>
+                                <li>Atelier de préparation CV & lettre de motivation</li>
+                                <li>Préparation aux entretiens d'embauche</li>
+                                <li>Techniques de recherche d'emploi</li>
+                                <li>Préparation aux entretiens Campus France</li>
+                                <li>Préparation aux concours oraux</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>5. Groupe d'écoute et soutien psychologique</h3>
+                            <ul>
+                                <li>Gestion du mal du pays</li>
+                                <li>Séances de décompression</li>
+                                <li>Cercle de parole pour partager les expériences</li>
+                            </ul>
+                        </div>
+                        <div class="ep-cta-bottom">
+                            <a href="https://wa.me/221773656425" target="_blank" rel="noopener noreferrer" class="ep-cta-whatsapp ep-cta-large">
+                                <span class="ep-cta-whatsapp-icon">📱</span>
+                                Discuter de mon accompagnement sur WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ep-sidebar">
+                        <div class="ep-image-block">
+                            <img src="images/image%201.jpeg" alt="Services étudiants MP Vision Conseil">
+                        </div>
+                        <div class="ep-sidebar-card">
+                            <p class="ep-sidebar-title">Besoin d'accompagnement ?</p>
+                            <a href="https://wa.me/221773656425" target="_blank" rel="noopener noreferrer" class="ep-cta-whatsapp">
+                                Nous contacter sur WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenu Parent -->
+        <section id="parent" class="ep-content ep-content-parent" hidden>
+            <div class="ep-content-header">
+                <div class="container">
+                    <button class="ep-back" data-back>
+                        <span class="ep-back-icon">←</span>
+                        Retour au choix
+                    </button>
+                    <span class="ep-content-type">Services Parents</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="ep-layout">
+                    <div class="ep-main">
+                        <h2>Services pour parents — Programme d'accompagnement</h2>
+                        <p class="ep-intro">Votre enfant arrive dans un pays nouveau, un environnement inconnu, avec des défis académiques, culturels et émotionnels. Notre cabinet propose une solution complète et professionnelle pour assurer sa sécurité, sa réussite académique, son équilibre émotionnel et son développement personnel.</p>
+                        
+                        <div class="ep-service-block">
+                            <h3>Nos objectifs pour votre enfant</h3>
+                            <ul>
+                                <li>Assurer une intégration culturelle et académique rapide</li>
+                                <li>Développer un comportement responsable et discipliné</li>
+                                <li>Renforcer son autonomie loin de la famille</li>
+                                <li>Éviter l'échec, l'isolement, les mauvaises fréquentations et les dérives</li>
+                                <li>Fournir aux parents un reporting régulier et transparent</li>
+                                <li>Garantir sa sécurité physique, sociale et émotionnelle</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>1. Coaching réussite académique garantie</h3>
+                            <p>Un programme conçu pour assurer que l'enfant :</p>
+                            <ul>
+                                <li>Développe une méthode de travail solide</li>
+                                <li>S'organise efficacement</li>
+                                <li>Progresse dans les notes</li>
+                                <li>Reçoit un suivi mensuel</li>
+                            </ul>
+                            <p class="ep-bonus"><strong>Bonus rassurant pour les parents :</strong> Un rapport mensuel remis aux parents où qu'ils soient (WhatsApp + PDF)</p>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>2. Coaching discipline — responsabilité — autonomie</h3>
+                            <ul>
+                                <li>Autonomie personnelle</li>
+                                <li>Habitudes de vie saines</li>
+                                <li>Gestion du temps</li>
+                                <li>Maîtrise des distractions (téléphones, sorties...)</li>
+                                <li>Responsabilisation dans les études et la vie quotidienne</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>3. Formation en gestion financière pour étudiants</h3>
+                            <ul>
+                                <li>Comment gérer une mensualité</li>
+                                <li>Éviter les dépenses inutiles</li>
+                                <li>Savoir économiser</li>
+                                <li>Notions basiques en finances personnelles</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>4. Coaching en sécurité et prévention des risques</h3>
+                            <ul>
+                                <li>Sensibilisation à la sécurité (déplacements, quartiers à éviter, comportements à risque)</li>
+                                <li>Gestion des situations d'urgence</li>
+                                <li>Bonne utilisation des transports locaux</li>
+                                <li>Préventions contre les arnaques et manipulations</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>5. Suivi comportemental & moral</h3>
+                            <p>Service de reporting aux parents :</p>
+                            <ul>
+                                <li>Entretiens réguliers avec l'étudiant</li>
+                                <li>Analyse de son comportement, fréquentation, activités</li>
+                                <li>Conseil pour les garder sur une voie saine</li>
+                                <li>Rapport mensuel envoyé aux parents</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>6. Formation en communication interculturelle</h3>
+                            <ul>
+                                <li>Respecter et comprendre la culture sénégalaise</li>
+                                <li>S'intégrer sans conflit</li>
+                                <li>Gérer les relations avec les camarades et enseignants</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-formules">
+                            <h3>Formules et tarifs proposés</h3>
+                            <div class="ep-formule-card">
+                                <h4>Formule standard – 1 mois</h4>
+                                <ul>
+                                    <li>Coaching académique (2 sessions)</li>
+                                    <li>Coaching personnel (1 session)</li>
+                                    <li>Suivi comportemental</li>
+                                    <li>Assistance WhatsApp</li>
+                                </ul>
+                            </div>
+                            <div class="ep-formule-card">
+                                <h4>Formule Premium – 1 mois</h4>
+                                <ul>
+                                    <li>Coaching académique (4 sessions)</li>
+                                    <li>Coaching personnel (2 sessions)</li>
+                                    <li>Formation sécurité</li>
+                                    <li>Suivi finances + comportement</li>
+                                    <li>Rapport mensuel aux parents</li>
+                                    <li>Assistance prioritaire</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="ep-avantages">
+                            <h3>Avantages pour les parents</h3>
+                            <ul>
+                                <li>Vous savez exactement comment votre enfant évolue</li>
+                                <li>Vous recevez un suivi professionnel, constant et documenté</li>
+                                <li>Votre enfant bénéficie d'un accompagnement qui l'évite de se perdre</li>
+                                <li>Vous avez un partenaire local de confiance</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-avantages">
+                            <h3>Avantages pour les étudiants</h3>
+                            <ul>
+                                <li>Une intégration rapide et sereine</li>
+                                <li>La confiance en soi et la maturité</li>
+                                <li>La réussite académique garantie</li>
+                                <li>La gestion du stress et de la solitude</li>
+                                <li>Une vie équilibrée : étude, santé, relations, finances</li>
+                                <li>Un coach et mentor présent toute l'année</li>
+                            </ul>
+                        </div>
+
+                        <div class="ep-service-block">
+                            <h3>Pourquoi nous faire confiance ?</h3>
+                            <ul>
+                                <li>Expertise en conseil, coaching et formation</li>
+                                <li>Connaissance du contexte local</li>
+                                <li>Approche humaine, structurée et professionnelle</li>
+                                <li>Suivi individualisé et adaptable</li>
+                                <li>Transparence absolue avec les parents</li>
+                            </ul>
+                        </div>
+                        <div class="ep-cta-bottom">
+                            <a href="https://wa.me/221773656425" target="_blank" rel="noopener noreferrer" class="ep-cta-whatsapp ep-cta-large">
+                                <span class="ep-cta-whatsapp-icon">📱</span>
+                                En savoir plus et inscrire mon enfant sur WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ep-sidebar">
+                        <div class="ep-image-block">
+                            <img src="images/image%202.jpeg" alt="Services parents MP Vision Conseil">
+                        </div>
+                        <div class="ep-sidebar-card">
+                            <p class="ep-sidebar-title">Un accompagnement pour votre enfant ?</p>
+                            <a href="https://wa.me/221773656425" target="_blank" rel="noopener noreferrer" class="ep-cta-whatsapp">
+                                Nous contacter sur WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="images/logo.png" alt="MP Vision Conseil" class="footer-logo">
+                <p>MP Vision Conseil — Coaching, Conseil & Formation</p>
+                <a href="index.html" class="footer-link">← Retour à l'accueil</a>
+                <p class="footer-credit">Fait par <a href="https://jophret-tech.yzz.me/index.php" target="_blank" rel="noopener noreferrer">Jophret Tech</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="etudiants-parents.js"></script>
+</body>
+</html>

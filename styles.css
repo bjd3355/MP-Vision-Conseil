@@ -45,7 +45,7 @@ body {
     z-index: 1000;
     background: rgba(10, 22, 40, 0.95);
     backdrop-filter: blur(10px);
-    padding: 12px 0;
+    padding: 8px 0;
     transition: all 0.3s ease;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .navbar .logo img {
-    height: 96px;
+    height: 40px;
     width: auto;
     object-fit: contain;
 }
@@ -104,7 +104,7 @@ body {
     align-items: center;
     padding: 120px 24px 80px;
     position: relative;
-    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 50%, #2c5282 100%);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 50%, var(--accent-blue) 100%);
 }
 
 .hero-bg {
@@ -329,6 +329,7 @@ body {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--shadow);
+    max-width: 380px;
 }
 
 .about-image img {
@@ -399,6 +400,60 @@ body {
     font-size: 0.95rem;
     line-height: 1.6;
     opacity: 0.9;
+}
+
+.services-etudiants-banner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 28px 36px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--white);
+    margin-bottom: 32px;
+    transition: all 0.3s ease;
+}
+
+.services-etudiants-banner:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(26, 54, 93, 0.3);
+    color: var(--white);
+}
+
+.services-etudiants-icon {
+    font-size: 2.5rem;
+}
+
+.services-etudiants-text {
+    flex: 1;
+}
+
+.services-etudiants-text strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+
+.services-etudiants-text span {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.services-etudiants-arrow {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .services-etudiants-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 20px;
+    }
+
+    .services-etudiants-text strong {
+        font-size: 1.05rem;
+    }
 }
 
 .services-cta {
@@ -935,6 +990,11 @@ body {
         gap: 40px;
     }
 
+    .about-image {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
     .founder-content {
         grid-template-columns: 1fr;
     }
@@ -979,7 +1039,7 @@ body {
 
 @media (max-width: 768px) {
     .navbar .logo img {
-        height: 56px;
+        height: 36px;
     }
 
     .hero-text .hero-logo {
@@ -1080,4 +1140,3 @@ body {
         grid-template-columns: 1fr;
     }
 }
-
