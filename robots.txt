@@ -1,0 +1,6 @@
+# MP Vision Conseil - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mp-vision-conseil.com/sitemap.xml
